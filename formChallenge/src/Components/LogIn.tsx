@@ -21,14 +21,14 @@ const LogIn = () => {
       console.log(data);
   }
   const handleFail = () => {
-    setFail(!fail)
+    setFail(true)
   }
 
   return (
     <>
         <h1 className="text-center">Log In</h1>
         
-            <div className="myContainer">
+            <div className="myContainer2">
                 <div className="row justify-content-center">
                   <div className="col-6 loginCard">
                   <form onSubmit={handleSubmit(onHelpSubmit)}>
