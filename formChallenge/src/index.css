@@ -1,0 +1,21 @@
+body{
+    background-color: bisque !important;
+}
+.myContainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.loginCard{
+    background-color: antiquewhite;
+    border: black 2px solid;
+    padding: 30px;
+    border-radius: 10px;
+}
+.registerCard{
+    margin-top: 30px;
+    border: 2px blue solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(238, 200, 153);
+}
